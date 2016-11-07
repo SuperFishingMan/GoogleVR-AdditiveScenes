@@ -6,6 +6,11 @@ public class GameController : MonoBehaviour {
     // Define a static Gamecontroller
     public static GameController control;
 
+    // How much gold the player has
+    public int gold;
+
+    public int score;
+
     void Awake()
     {
         // Set control to this object
